@@ -12,7 +12,7 @@
     "test": "jest",
     "check": "pnpm -r run check",
     "test:ci": "jest --coverage",
-    "prerelease": "yarn build",
+    "prerelease": "pnpm build",
     "release": "changeset publish",
     "prettier": "prettier --ignore-path .gitignore --write --list-different \"**/*.{ts,tsx,graphql,yml}\""
   },
